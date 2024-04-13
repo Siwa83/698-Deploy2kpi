@@ -8,7 +8,7 @@ import pickle
 
 # Load model and encoders
 with open('model_kpi-63130701925.pkl', 'rb') as file:
-    model, department_encoder, region_encoder, education_encoder, gender_encoder, recruitment_channel_encoder = pickle.load(file)
+    model, department_encoder, region_encoder, gender_encoder, recruitment_channel_encoder = pickle.load(file)
 
 # Load your DataFrame
 # Replace 'your_data.csv' with the actual file name or URL
